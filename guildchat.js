@@ -26,8 +26,8 @@ const minecraftPassword = "<Minecraft Password>";
 var logFile = fs.createWriteStream('log.txt', { flags: 'a' });
 
 const client = new Client({
-    username: 'minecraftUsername',
-    password: 'minecraftPassword',
+    username: minecraftUsername,
+    password: minecraftPassword,
     server: 'hypixel.net',
 	sessionCache: {
 		name: "default"
